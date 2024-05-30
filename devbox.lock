@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "goreleaser@latest": {
+      "last_modified": "2024-05-25T15:35:15Z",
+      "resolved": "github:NixOS/nixpkgs/c5187508b11177ef4278edf19616f44f21cc8c69#goreleaser",
+      "source": "devbox-search",
+      "version": "1.26.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3igms7180pkaki16zvfid4q7jp2g22b0-goreleaser-1.26.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3igms7180pkaki16zvfid4q7jp2g22b0-goreleaser-1.26.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k5cnmyfha51wygjalza3kf6kjwwds0lh-goreleaser-1.26.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/k5cnmyfha51wygjalza3kf6kjwwds0lh-goreleaser-1.26.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9xx7jd8hi5ff305kysnq7wylf92w69vh-goreleaser-1.26.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9xx7jd8hi5ff305kysnq7wylf92w69vh-goreleaser-1.26.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lwgrhyjg21q6zd1akid2v1nxxnpsscz1-goreleaser-1.26.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lwgrhyjg21q6zd1akid2v1nxxnpsscz1-goreleaser-1.26.2"
+        }
+      }
+    }
+  }
+}
